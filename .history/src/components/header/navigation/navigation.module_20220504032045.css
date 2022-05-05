@@ -1,0 +1,11 @@
+.navigation :not(:first-child) {
+  margin-left: 16px;
+}
+.navigation {
+  position: relative;
+}
+.borderCurrentLink {
+  width: 30px;
+  height: 2px;
+  background-color: #5ece7b;
+}

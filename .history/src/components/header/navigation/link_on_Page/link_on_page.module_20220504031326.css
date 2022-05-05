@@ -1,0 +1,9 @@
+.pageTitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+.activePageTitle {
+  font-weight: 600;
+  color: #5ece7b;
+  border-bottom: 2px solid #5ece7b;
+}

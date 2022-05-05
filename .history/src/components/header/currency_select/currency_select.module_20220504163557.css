@@ -1,0 +1,6 @@
+select {
+  border: 0;
+}
+.selectItem {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.sectionNavigation {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.sectionContainer {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.listPageTitle {
+  display: flex;
+}

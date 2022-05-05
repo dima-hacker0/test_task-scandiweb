@@ -1,0 +1,44 @@
+.item {
+  cursor: pointer;
+  width: 114px;
+  height: 45px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item:hover {
+  background-color: #dbdbdb;
+}
+.selectHeader {
+  cursor: pointer;
+  width: 38px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hideBodySelect {
+  display: none;
+}
+.selectBody {
+  position: absolute;
+  left: -34px;
+  box-shadow: 4px 13px 47px 0px #a8acb0;
+}
+.select {
+  position: relative;
+  margin-right: 200px;
+}
+.arrowWrap {
+  transition: 0.4s;
+  margin-bottom: 7px;
+}
+.activeArrowWrap {
+  margin-top: 7px;
+  transition: 0.4s;
+  transform: rotate(180deg);
+}
+.currentSelect {
+  font-size: 18px;
+}

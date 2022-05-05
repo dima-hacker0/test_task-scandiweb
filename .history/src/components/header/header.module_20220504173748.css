@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px 0 31px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listPageTitle {
+  display: flex;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

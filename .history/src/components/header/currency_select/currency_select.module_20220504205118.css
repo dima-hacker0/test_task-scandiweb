@@ -1,0 +1,28 @@
+.item {
+  cursor: pointer;
+}
+.selectHeader {
+  cursor: pointer;
+  width: 38px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hideBodySelect {
+  display: none;
+}
+.selectBody {
+  position: absolute;
+}
+.select {
+  position: relative;
+  margin-right: 200px;
+}
+.arrowWrap {
+  transition: 0.5s;
+  height: 4px;
+}
+.activeArrowWrap {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,18 @@
+.sectionNavigation {
+}
+.sectionContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.listPageTitle {
+  display: flex;
+}
+.pageTitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+.listPageTitle .pageTitle:not(:first-child) {
+  margin-left: 16px;
+}
