@@ -1,0 +1,28 @@
+.img {
+  width: 354px;
+  height: 330px;
+  object-fit: cover;
+}
+.card {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 386px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.title {
+  font-size: 18px;
+  font-weight: 300;
+}
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
+.outOfStock {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 386px;
+}

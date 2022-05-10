@@ -1,0 +1,15 @@
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.pageGoods {
+  min-height: calc(100vh - 80px);
+}
+.currentCategor {
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 103px;
+}

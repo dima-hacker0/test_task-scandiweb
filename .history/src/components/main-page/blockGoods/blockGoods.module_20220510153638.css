@@ -1,0 +1,6 @@
+.blockGoods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -50 -20px;
+}

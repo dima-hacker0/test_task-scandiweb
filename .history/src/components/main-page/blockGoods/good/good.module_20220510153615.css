@@ -1,0 +1,20 @@
+.img {
+  width: 354px;
+  height: 330px;
+  object-fit: cover;
+}
+.card {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 386px;
+  cursor: pointer;
+  margin: 50 20px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 300;
+}
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}

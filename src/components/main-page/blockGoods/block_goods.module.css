@@ -1,0 +1,8 @@
+.blockGoods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 103px;
+  margin-bottom: 20px;
+}

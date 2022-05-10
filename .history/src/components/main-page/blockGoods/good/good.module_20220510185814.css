@@ -1,0 +1,53 @@
+.img {
+  width: 354px;
+  height: 330px;
+  object-fit: cover;
+}
+.card {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 386px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cardInStock:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.title {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 24px;
+}
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
+.cardOutOfStock {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 386px;
+  opacity: 0.6;
+}
+.blockImg {
+  position: relative;
+}
+.inscriptionOutOfStock {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  white-space: nowrap;
+}
+.basket {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(31px);
+  right: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.basket:hover {
+  opacity: 1;
+}
