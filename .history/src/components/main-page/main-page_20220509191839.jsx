@@ -1,0 +1,21 @@
+import React from "react";
+import classes from "./main-page.module.css";
+class MainPage extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <section className={classes.pageGoods}>
+        <div className={classes.container}>
+          <h1 className={classes.currentPage}>Current page</h1>
+        </div>
+      </section>
+    );
+  }
+}
+const mapStateToProps = (state) => {
+  debugger;
+  return state;
+};
+export default connect(mapStateToProps, null)(MainPage);

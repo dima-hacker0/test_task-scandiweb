@@ -1,0 +1,12 @@
+.img {
+  width: 354px;
+  height: 330px;
+}
+.card {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 386px;
+}
+.describe {
+  font-size: 18px;
+}
