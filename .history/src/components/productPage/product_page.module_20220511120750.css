@@ -1,0 +1,19 @@
+.sectionProductPage {
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
+}
+.container {
+  max-width: 1270px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.mainImg {
+  width: 45px;
+  max-width: 610px;
+  max-height: 511px;
+  object-fit: contain;
+}
+.content {
+  display: flex;
+}

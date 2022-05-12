@@ -1,0 +1,36 @@
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.brand {
+  font-size: 30px;
+  font-weight: 400;
+}
+.options {
+  margin-top: 43px;
+}
+.block {
+  margin-left: 50px;
+}
+.priceTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 24px;
+  font-weight: 700;
+}
+.buttonAddToCart {
+  color: white;
+  width: 292px;
+  height: 52px;
+  border: 0;
+  background-color: rgb(94, 206, 123);
+  margin-top: 20px;
+  cursor: pointer;
+}
+.buttonAddToCart:hover {
+  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 20%);
+}

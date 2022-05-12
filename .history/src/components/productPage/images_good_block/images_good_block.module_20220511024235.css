@@ -1,0 +1,16 @@
+.img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+.blockImages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  overflow: hidden;
+}
+.hideBlockImages {
+  max-height: 610px;
+}

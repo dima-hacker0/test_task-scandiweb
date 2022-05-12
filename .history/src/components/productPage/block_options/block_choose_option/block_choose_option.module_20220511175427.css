@@ -1,0 +1,9 @@
+.optionName {
+  font-size: 18px;
+  font-weight: 700;
+}
+.itemOption {
+  width: 63px;
+  height: 45px;
+  border: 1px solid black;
+}

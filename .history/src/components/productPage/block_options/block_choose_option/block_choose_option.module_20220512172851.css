@@ -1,0 +1,35 @@
+.optionName {
+  font-size: 18px;
+  font-weight: 700;
+}
+.itemOption {
+  width: 63px;
+  height: 45px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  display: flex;
+  column-gap: 10px;
+}
+.block {
+  margin-bottom: 24px;
+}
+.optionName {
+  margin-bottom: 8px;
+}
+.itemOptionSwatch {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  position: relative;
+}
+.selectedItemSwatch::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}

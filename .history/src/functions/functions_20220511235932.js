@@ -1,0 +1,1 @@
+const calculatePrice = (arrPrices, label) => {};

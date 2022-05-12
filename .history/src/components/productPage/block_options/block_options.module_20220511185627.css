@@ -1,0 +1,19 @@
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.brand {
+  font-size: 30px;
+  font-weight: 400;
+}
+.options {
+  margin-top: 43px;
+}
+.block {
+  margin-left: 50px;
+}
+.priceTitle {
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,15 @@
+.optionName {
+  font-size: 18px;
+  font-weight: 700;
+}
+.itemOption {
+  width: 63px;
+  height: 45px;
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+}
+.options {
+  display: flex;
+  column-gap: 10px;
+}
