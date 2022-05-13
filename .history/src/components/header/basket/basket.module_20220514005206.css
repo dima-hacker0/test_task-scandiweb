@@ -1,0 +1,12 @@
+.basket {
+  position: relative;
+}
+.blockBasketIcon {
+  cursor: pointer;
+}
+.hideContent {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}

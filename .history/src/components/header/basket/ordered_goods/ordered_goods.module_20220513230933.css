@@ -1,0 +1,9 @@
+.OrderedGoods {
+  width: 325px;
+  height: 677px;
+  background-color: black;
+  position: absolute;
+  left: -325px;
+  z-index: 1;
+  top: 53px;
+}
