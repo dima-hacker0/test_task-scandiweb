@@ -20,26 +20,22 @@ class Basket extends React.Component {
 
   click(e) {
     const { hideContent, basketIsOpened } = this.props;
-    console.log(e.target.closest(`.${classesOrderedGoods.orderedGoods}`));
-    if (e.target.closest(`.${classes.blockBasketIcon}`) !== null) {
-      basketIsOpened ? hideContent(false) : hideContent(true);
-    } else if (
-      e.target.closest(`.${classesOrderedGoods.orderedGoods}`) === null &&
+    console.log(this.props.basketIsOpened);
+    if (
+      e.target.closest(`.${classesOrderedGoods.orderedGoods}`) !== null &&
       basketIsOpened
     ) {
-      hideContent(false);
-      console.log("close");
+      basketIsOpened ? hideContent(false) : hideContent(true);
     }
   }
 
   render() {
-    const { basketIsOpened } = this.props;
     return (
       <div className={classes.basket}>
         <div className={classes.blockBasketIcon}>
           <Icons className={classes.iconBasket} name="basket" />
         </div>
-        <OrderedGoods basketIsOpened={basketIsOpened} />
+        <OrderedGoods />
       </div>
     );
   }

@@ -40,14 +40,7 @@ class Header extends React.Component {
           </div>
         </div>
         {basketIsOpened ? <div className={classes.hideContent}></div> : null}
-        <div
-          style={{ height: heightPage - 80 + "px" }}
-          className={
-            basketIsOpened
-              ? `${classes.hideContent} ${classes.hideContentOn}`
-              : classes.hideContent
-          }
-        ></div>
+        <div className={classes.hideContent}></div>
       </section>
     );
   }

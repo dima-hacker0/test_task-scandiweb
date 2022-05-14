@@ -28,15 +28,5 @@
   align-items: center;
 }
 .hideContent {
-  top: 80px;
   width: 100%;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  z-index: 5;
-  pointer-events: none;
-  transition: 0.5s;
-}
-.hideContentOn {
-  pointer-events: all;
-  background-color: rgba(0, 0, 0, 0.4);
 }

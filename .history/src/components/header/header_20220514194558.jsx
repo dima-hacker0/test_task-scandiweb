@@ -4,7 +4,6 @@ import Navigation from "./navigation/navigation";
 import Icons from "../../icons/icons";
 import CurrencySelect from "./currency_select/currency_select";
 import Basket from "./basket/basket";
-
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -25,7 +24,9 @@ class Header extends React.Component {
       state: { basketIsOpened },
       heightPage,
     } = this;
-
+    // debugger;
+    // debugger;
+    // console.log(pageHeight);
     return (
       <section className={classes.header}>
         <div className={classes.container}>
@@ -39,15 +40,13 @@ class Header extends React.Component {
             />
           </div>
         </div>
-        {basketIsOpened ? <div className={classes.hideContent}></div> : null}
-        <div
-          style={{ height: heightPage - 80 + "px" }}
-          className={
-            basketIsOpened
-              ? `${classes.hideContent} ${classes.hideContentOn}`
-              : classes.hideContent
-          }
-        ></div>
+        {basketIsOpened ? (
+          <div
+            onClick={() => this.hideContent(false)}
+            style={{ height: heightPage - 80 + "px" }}
+            className={classes.hideContent}
+          ></div>
+        ) : null}
       </section>
     );
   }

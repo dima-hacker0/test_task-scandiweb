@@ -39,7 +39,7 @@ class Basket extends React.Component {
         <div className={classes.blockBasketIcon}>
           <Icons className={classes.iconBasket} name="basket" />
         </div>
-        <OrderedGoods basketIsOpened={basketIsOpened} />
+        <OrderedGoods />
       </div>
     );
   }

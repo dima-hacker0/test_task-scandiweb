@@ -1,0 +1,9 @@
+.orderedGoods {
+  width: 325px;
+  height: 677px;
+  background-color: black;
+  position: absolute;
+  left: -298px;
+  z-index: 999;
+  top: 53px;
+}

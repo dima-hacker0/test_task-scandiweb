@@ -1,16 +1,13 @@
 .orderedGoods {
   width: 325px;
   height: 677px;
-  background-color: white;
+  background-color: black;
   position: absolute;
   left: -298px;
   z-index: 999;
-  top: 52px;
+  top: 53px;
   pointer-events: none;
   opacity: 0;
-  transition: 0.5s;
-  padding: 10px;
-  box-sizing: border-box;
 }
 .orderedGoodsOn {
   pointer-events: all;

@@ -33,13 +33,12 @@ class Basket extends React.Component {
   }
 
   render() {
-    const { basketIsOpened } = this.props;
     return (
       <div className={classes.basket}>
         <div className={classes.blockBasketIcon}>
           <Icons className={classes.iconBasket} name="basket" />
         </div>
-        <OrderedGoods basketIsOpened={basketIsOpened} />
+        <OrderedGoods />
       </div>
     );
   }

@@ -7,13 +7,7 @@ class OrderedGoods extends React.Component {
 
     return (
       <div>
-        <div
-          className={
-            basketIsOpened
-              ? `${classes.orderedGoods} ${classes.orderedGoodsOn}`
-              : classes.orderedGoods
-          }
-        ></div>
+        <div className={classes.orderedGoods}></div>
       </div>
     );
   }
