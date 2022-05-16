@@ -1,0 +1,15 @@
+.basket {
+  position: relative;
+}
+.blockBasketIcon {
+  cursor: pointer;
+}
+.amountGoods {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.blockBasketIcon {
+  position: relative;
+}

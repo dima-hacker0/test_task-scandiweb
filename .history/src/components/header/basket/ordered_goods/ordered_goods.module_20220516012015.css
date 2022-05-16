@@ -1,0 +1,30 @@
+.orderedGoods {
+  width: 325px;
+  height: 677px;
+  max-height: 677px;
+  background-color: white;
+  position: absolute;
+  left: -298px;
+  z-index: 999;
+  top: 52px;
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.5s;
+  padding: 10px;
+  box-sizing: border-box;
+  /* overflow-y: scroll; */
+}
+.orderedGoodsOn {
+  pointer-events: all;
+  opacity: 1;
+}
+.numberOfGoods {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+.numberItemsSpan {
+  font-weight: 400;
+}
+.items {
+  margin-bottom: -10px;
+}

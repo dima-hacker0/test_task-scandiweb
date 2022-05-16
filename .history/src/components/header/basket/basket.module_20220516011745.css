@@ -1,0 +1,23 @@
+.basket {
+  position: relative;
+}
+.blockBasketIcon {
+  cursor: pointer;
+}
+.amountGoods {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  top: -9px;
+  right: -10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.blockBasketIcon {
+  position: relative;
+}

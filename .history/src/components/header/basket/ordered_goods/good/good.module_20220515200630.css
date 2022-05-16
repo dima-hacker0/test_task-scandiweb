@@ -1,0 +1,10 @@
+.name,
+.brand {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 16px;
+  font-weight: 600;
+}

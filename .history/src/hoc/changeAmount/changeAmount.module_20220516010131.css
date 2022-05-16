@@ -1,0 +1,15 @@
+.changeAmount {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.titleAmount {
+  text-align: center;
+}
