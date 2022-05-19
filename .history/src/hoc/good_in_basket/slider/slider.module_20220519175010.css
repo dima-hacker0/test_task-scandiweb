@@ -1,0 +1,9 @@
+.sliderContent {
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+}
+.arrows {
+  position: absolute;
+}

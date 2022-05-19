@@ -1,0 +1,26 @@
+.sliderContent {
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+}
+.arrows {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+.arrowLeft {
+  transform: rotate(-90deg);
+  background-color: black;
+}
+.arrowRight {
+  transform: rotate(90deg);
+  background-color: black;
+  width: 24px;
+  height: 24px;
+}

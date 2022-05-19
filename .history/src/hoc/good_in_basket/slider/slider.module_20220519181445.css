@@ -1,0 +1,44 @@
+.sliderContent {
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+}
+.arrows {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  right: 0;
+  bottom: 0;
+}
+.img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+  transition: 0.5s;
+}
+.arrowLeft {
+  transform: rotate(-90deg);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.arrowRight {
+  transform: rotate(90deg);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.slider {
+  position: relative;
+}

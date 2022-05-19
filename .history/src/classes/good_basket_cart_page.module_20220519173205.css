@@ -1,0 +1,104 @@
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.brand {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.good {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.img {
+  width: 200px;
+  height: 100%;
+  object-fit: contain;
+  margin: auto 0;
+  margin-left: 10px;
+}
+.changeAmount {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.titleAmount {
+  text-align: center;
+  font-size: 24px;
+}
+.optionName {
+  font-size: 18px;
+  font-weight: 700;
+}
+.itemOption {
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  width: 63px;
+  height: 45px;
+}
+.options {
+  display: flex;
+  column-gap: 10px;
+}
+.block:not(:last-child) {
+  margin-bottom: 24px;
+}
+.optionName {
+  margin-bottom: 8px;
+}
+.itemOptionSwatch {
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+  width: 32px;
+  height: 32px;
+}
+
+.selectedItemSwatch::before {
+  content: "";
+  position: absolute;
+  border: 3px solid #5ece7b;
+  top: -4px;
+  left: -4px;
+  bottom: -4px;
+  right: -4px;
+}
+.selectedItemSwatch {
+  transition: 0.5s;
+}
+.selectedItem {
+  background-color: black;
+  color: white;
+}
+.blockAmountAndImg {
+  display: flex;
+}
+.sliderContent {
+  height: 300px;
+  width: 200px;
+  overflow-x: hidden;
+}

@@ -1,0 +1,36 @@
+.container {
+  max-width: 1270px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.cartSection {
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
+}
+.boldSpan {
+  font-weight: 700;
+}
+.tax {
+  font-size: 24px;
+  margin-top: 45px;
+}
+.quantity {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.total {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.buttonOrder {
+  width: 279px;
+  height: 43px;
+  background-color: #5ece7b;
+  color: white;
+  border: 0;
+  transition: 0.5s;
+}
+.buttonOrder:hover {
+  background-color: grey;
+}

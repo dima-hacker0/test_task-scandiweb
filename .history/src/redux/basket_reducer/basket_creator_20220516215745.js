@@ -1,0 +1,16 @@
+import { ADD_GOOD_TO_CART, CHANGE_OPTIONS_GOOD } from "../types";
+
+export const addGoodToCartCreator = (options) => {
+  return {
+    type: ADD_GOOD_TO_CART,
+    payload: options,
+  };
+};
+
+const changeGoodBasketCreator = (name, value) => {
+  return {
+    type: CHANGE_OPTIONS_GOOD,
+    name: name,
+    value: value,
+  };
+};
